@@ -1,0 +1,48 @@
+DR NETTOYAGE RENNES — PACK COMPLET POUR FINALISATION (13/10/2026)
+====================================================================
+CE ZIP EST COMPLET TECHNIQUEMENT, MAIS PAS ENCORE PRÊT À PUBLIER COMME SITE COMMERCIAL.
+
+FICHIERS
+- index.html : page d'accueil (logo, photo, Cal.com, devis Web3Forms, tarifs)
+- style.css : design desktop/mobile et pages légales
+- script.js : menu mobile, quote form, formulaire de rétractation
+- mentions-legales.html : mentions légales
+- politique-confidentialite.html : confidentialité / RGPD
+- conditions-generales-vente.html : CGV consommateurs (et cadre B2B sous devis)
+- retractation.html : formulaire en ligne de notification de rétractation
+- images/ : logo, favicons, photo d'accueil
+
+DÉCISIONS PRÉVUES POUR LE DÉMARRAGE
+- Paiement : espèces / virement / carte si service de CB opérationnel et confirmé.
+- Paiement ponctuel particulier : à la fin de l’intervention, sauf accord écrit différent.
+- Réservation Cal.com : demande avec approbation manuelle ; pas d’encaissement direct.
+- Ménage régulier : tarif de lancement 20 €/h, minimum 2 h ; 40 € minimum indiqué aux CGV.
+- Annulation : prévenance souhaitée de 24 h, aucune pénalité automatique dans le projet de CGV.
+- Démarrage d’activité déclaré : 02/11/2026 (date volontaire).
+
+IMPORTANT — AVANT DE METTRE EN LIGNE / CONTRACTER
+1. MODIFICATION ACTIVITÉ : J00287764690 en attente CMAR Bretagne au 13/10/2026 ; vérifier RNE final. La synthèse INPI propose 8121Z et ménage résidentiel à compter du 02/11/2026 ; envisager CMA sur services autres que ménage résidentiel.
+2. NOM COMMERCIAL : attestation RNE actuelle « Fiago Fitness » ; vérifier l’usage/inscription de « Dr Nettoyage Rennes ».
+3. TVA : confirmer franchise en base / assujettissement, adapter prix TTC et CGV, factures, mentions légales (et RCS si applicable).
+4. MÉDIATEUR : souscrire auprès d’un médiateur de la consommation référencé, puis renseigner nom, adresse, site sur mentions légales et CGV.
+5. RC PRO : souscrire/vérifier l'assurance et conditions de couverture puis compléter le champ CGV.
+6. HÉBERGEUR : confirmer Cloudflare Pages et les coordonnées correctes après déploiement.
+7. RGPD : définir une durée de conservation et appliquer purge ; vérifier Cal.com, Web3Forms, éventuels traceurs et transferts hors EEE.
+8. RÉTRACTATION EN LIGNE : tester la page retractation.html en ligne avec adresse Gmail réelle, vérifier que la notification arrive. Prévoir un accusé de réception sur support durable ; le message affiché après soumission n’est pas à lui seul une preuve suffisante.
+9. CONTRATS : transmettre CGV et confirmation sur support durable, recueillir accord explicite sur prix/prestation ; pour exécuter avant 14 jours, recueillir demande expresse et, si applicable, renonciation spécifique dans les cas légaux. Ne pas confondre demande de créneau et contrat conclu.
+10. CGV : relire annulations, périmètre des prestations, modes de paiement (TPE CB), capacité à offrir services textiles/extérieurs et engagements B2B ; faire valider les clauses au besoin par un juriste/CCI/CMA.
+11. PAGE LEGALES : retirer « noindex, nofollow » et les encarts « document en préparation » APRÈS vérification. Ne pas supprimer les rappels avant d'avoir corrigé les informations.
+12. COMMERCIAL : vérifier la disponibilité légale de l'activité au 02/11/2026, les garanties et tarifs avant tout encaissement.
+
+SOURCES OFFICIELLES CONSULTÉES
+https://entreprendre.service-public.gouv.fr/vosdroits/F31228
+https://entreprendre.service-public.gouv.fr/vosdroits/F33527
+https://www.service-public.gouv.fr/particuliers/vosdroits/F10485
+https://www.economie.gouv.fr/mediation-conso/vous-etes-un-professionnel/vos-principales-obligations-0
+https://entreprendre.service-public.gouv.fr/vosdroits/F22929
+https://www.cnil.fr/fr/passer-laction/les-durees-de-conservation-des-donnees
+
+COMPATIBILITÉ
+- Site statique HTML/CSS/JS pour GitHub et Cloudflare Pages.
+- Pour ouvrir localement : double-clic sur index.html. Tester les soumissions après déploiement, pas seulement depuis file://.
+- Ne pas créer maintenant une seconde activité / modification INPI sans conseil de la CMA.

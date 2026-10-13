@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercer une rétractation | Dr Nettoyage Rennes</title>
+  <meta name="description" content="Formulaire en ligne pour notifier une demande de rétractation liée à une prestation Dr Nettoyage Rennes.">
+  <meta name="robots" content="noindex, nofollow">
+  <!-- Retirer noindex uniquement après avoir complété et vérifié les informations légales. -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-container">
+    <a href="index.html#accueil" class="logo" aria-label="Dr Nettoyage Rennes - Accueil">
+      <img src="images/logo-dr-nettoyage.png" alt="" width="48" height="48">
+      <span class="brand-name">Dr Nettoyage <strong>Rennes</strong></span>
+    </a>
+    <button class="mobile-menu-button" id="mobileMenuButton" aria-label="Ouvrir le menu" aria-controls="mainNav" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav" aria-label="Navigation principale">
+      <a href="index.html#services">Services</a>
+      <a href="index.html#tarifs">Tarifs</a>
+      <a href="index.html#reservation">Réserver</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <a href="index.html#devis" class="button button-small desktop-quote-button">Devis gratuit</a>
+  </div>
+</header>
+<main class="legal-main">
+  <div class="container">
+    <div class="legal-intro">
+      <a class="legal-back" href="index.html#accueil">← Retour à l’accueil</a>
+      <p class="eyebrow">Vos droits</p>
+      <h1>Exercer une rétractation</h1>
+      <p>Dr Nettoyage Rennes — Rennes, Cesson-Sévigné et alentours</p>
+    </div>
+    <div class="legal-warning" role="note">
+      <strong>Site en préparation :</strong> cette page doit être testée en ligne avant toute mise en service commerciale. Vous pouvez toujours notifier votre rétractation par email.
+    </div>
+    <article class="legal-card">
+<h2>Envoyer une demande de rétractation</h2>
+<p>Cette page permet de notifier une rétractation lorsque le droit de rétractation s'applique à votre contrat de service conclu à distance ou hors établissement. <strong>Aucun motif n'est nécessaire.</strong> Une demande d'annulation ou de report d'un rendez-vous peut aussi être adressée directement à notre équipe.</p>
+<p>Pour exercer ce droit, vous pouvez utiliser le formulaire ci-dessous ou écrire à <a href="mailto:drnettoyagerennes@gmail.com">drnettoyagerennes@gmail.com</a>. Une demande envoyée dans le délai légal suffit à notifier votre décision ; vous n'avez pas besoin d'attendre notre accord.</p>
+<form class="withdrawal-form" id="withdrawalForm" action="https://api.web3forms.com/submit" method="POST">
+<input type="hidden" name="access_key" value="e43dedb6-3396-4cd9-873f-17376256246f">
+<input type="hidden" name="subject" value="RETRACTATION / RETRACTATION - Dr Nettoyage Rennes">
+<input type="hidden" name="from_name" value="Dr Nettoyage Rennes">
+<input type="hidden" name="type_de_demande" value="Notification de rétractation">
+<div style="display:none" aria-hidden="true"><input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off"></div>
+<div class="form-group"><label for="withdrawName">Nom et prénom *</label><input type="text" id="withdrawName" name="nom" autocomplete="name" required></div>
+<div class="form-group"><label for="withdrawEmail">Adresse e-mail *</label><input type="email" id="withdrawEmail" name="email" autocomplete="email" required></div>
+<div class="form-group"><label for="withdrawBooking">Date du rendez-vous ou référence (si connue)</label><input type="text" id="withdrawBooking" name="reference_reservation" placeholder="Ex. 05/11/2026"></div>
+<div class="form-group"><label for="withdrawService">Prestation concernée *</label><input type="text" id="withdrawService" name="prestation" required placeholder="Ex. Ménage régulier – 2h"></div>
+<div class="form-group form-group-full"><label for="withdrawMessage">Précisions facultatives</label><textarea id="withdrawMessage" name="precision" rows="3" placeholder="Si besoin, précisez la date de commande ou la référence du contrat."></textarea></div>
+<div class="form-group-full"><p class="legal-subtle">En envoyant ce formulaire, vous nous notifiez votre volonté de vous rétracter de la prestation indiquée. Nous utilisons ces informations uniquement pour traiter votre demande, selon la <a href="politique-confidentialite.html">politique de confidentialité</a>.</p></div>
+<button class="button form-submit" type="submit">Notifier ma rétractation</button>
+<p id="withdrawalFormStatus" class="form-status form-group-full" role="status" aria-live="polite"></p>
+</form>
+<h2>Autres moyens</h2><p>Vous pouvez aussi adresser une déclaration dénuée d'ambiguïté à : Francisco Antonio Fiago Mier y Teran (EI), 42 Cours de la Vilaine, 35510 Cesson-Sévigné, France ; email <a href="mailto:drnettoyagerennes@gmail.com">drnettoyagerennes@gmail.com</a>.</p>
+<p>Pour en savoir plus sur les délais de rétractation et les situations particulières (prestation débutée ou achevée, contrats hors établissement), consultez les <a href="conditions-generales-vente.html">CGV, article 8</a>.</p>
+<hr><p class="legal-subtle">Projet du 13 octobre 2026 — à tester avant publication.</p>
+    </article>
+  </div>
+</main>
+<div class="mobile-action-bar">
+  <a href="tel:+33665380417">📞 Appeler</a>
+  <a href="index.html#reservation">📅 Réserver</a>
+  <a href="index.html#devis">✉️ Devis</a>
+</div>
+<footer class="site-footer">
+  <div class="container footer-container">
+    <div>
+      <a href="index.html#accueil" class="footer-logo"><img src="images/logo-dr-nettoyage.png" alt="" width="46" height="46"><span>Dr Nettoyage Rennes</span></a>
+      <p>Nettoyage pour particuliers et professionnels à Rennes, Cesson-Sévigné et alentours.</p>
+    </div>
+    <div><h3>Services</h3><a href="index.html#services">Ménage</a><a href="index.html#services">Canapés</a><a href="index.html#services">Vitres</a><a href="index.html#services">Professionnels</a></div>
+    <div><h3>Navigation</h3><a href="index.html#tarifs">Tarifs</a><a href="index.html#reservation">Réserver</a><a href="index.html#contact">Contact</a></div>
+    <div><h3>Contact</h3><a href="tel:+33665380417">06 65 38 04 17</a><a href="mailto:drnettoyagerennes@gmail.com">drnettoyagerennes@gmail.com</a></div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© <span id="currentYear"></span> Dr Nettoyage Rennes. Tous droits réservés.</p>
+    <div><a href="mentions-legales.html">Mentions légales</a><a href="politique-confidentialite.html">Politique de confidentialité</a><a href="conditions-generales-vente.html">CGV</a><a href="retractation.html">Exercer une rétractation</a></div>
+  </div>
+</footer>
+</body>
+</html>
